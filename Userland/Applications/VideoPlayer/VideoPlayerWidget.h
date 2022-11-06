@@ -29,6 +29,8 @@ public:
 
     void update_title();
 
+    void initialize_menubar(GUI::Window& window);
+
 private:
     VideoPlayerWidget(GUI::Window&);
 
